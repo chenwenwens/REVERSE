@@ -5,7 +5,7 @@
 - [x] 能从汇编源码编译通过并成功dump  
 - [x] 搜索Windows PEB结构体，PE文件导入表导出表相关数据结构的文档，解读shellcode原理  
 - [x] 修改shellcode功能为运行记事本程序notepad.exe  
-- [x] (选做)修改shellcode功能为下载执行器，即下下载一个可执行文件，然后再运行  
+- [] (选做)修改shellcode功能为下载执行器，即下下载一个可执行文件，然后再运行  
 
 ### 实验过程  
 
@@ -41,7 +41,7 @@ int main(int argc, char **argv)
 }
 ```  
 
-![成功运行](./image/runcalc.jpg)  
+![成功运行](./image/run.jpg)  
 
 ## 编译问题及解决
 1. 源代码必须是.c文件，否则会出现类型转换错误
